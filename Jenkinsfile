@@ -2,25 +2,12 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
+        stage('Anjali Stage') {
             steps {
-                echo 'Git checkout'
+                echo 'Anjali Stage'
             }
         }
-         stage('Build') {
-            steps {
-                echo 'Build'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing'
-            }
-        }
-      stage('Deploy') {
-            steps {
-                echo 'Deployment'
-            }
         }
     }
 }
+
