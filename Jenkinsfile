@@ -2,25 +2,12 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
+        stage('Usha Stage') {
             steps {
-                echo 'Git checkout'
+                echo 'Usha stage'
             }
         }
-         stage('Build') {
-            steps {
-                echo 'Build'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing'
-            }
-        }
-      stage('Deploy') {
-            steps {
-                echo 'Deployment'
-            }
-        }
+       
     }
 }
+
